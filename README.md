@@ -1,8 +1,8 @@
 Twitter Sentiment Analysis
 
-![Python Analysis]](pythonanalysis.jpg)
+![Python Analysis](TwitterSentimentAnalysis.jpeg)
 
-![Objective](sentiment.jpg)
+![Objective](sentiment.jpeg)
 
 Project Overview
 In a dynamic digital landscape, understanding public sentiment towards technology giants like Apple and Google is paramount. This project aims to harness the power of Natural Language Processing (NLP) to conduct a comprehensive sentiment analysis of tweets related to their products. By leveraging a dataset containing over 9,000 manually annotated tweets, we seek to create a robust model that discerns sentiments as positive, negative, or neutral. The multifaceted nature of this analysis offers valuable insights for businesses, marketing strategists, and researchers invested in the consumer electronics domain.
