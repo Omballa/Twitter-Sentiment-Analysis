@@ -12,9 +12,11 @@ In the era of social media dominance, the reputation and perception of tech comp
 
 #### Objectives
 
-- Initiate the project with a focused binary classifier to distinguish positive and negative sentiments. Gradually extend the model's capabilities to handle neutral sentiments, ensuring a robust multiclass classification system (Proof of Concept).
-- Develop a sophisticated NLP model capable of accurately classifying tweet sentiments as positive, negative, or neutral, providing nuanced insights into the public's opinions (Sentiment Analysis).
-- Continuously refine the model's architecture and parameters, drawing inspiration from advanced NLP techniques documented in the Mod 4 Appendix. This iterative approach ensures optimal performance and adaptability to the evolving landscape of social media language (Model Iteration).
+- To identify unique words associated with positive, negative, and neutral sentiments in the dataset.
+
+- Initiate the project with a focused binary classifier to distinguish positive and negative sentiments. Gradually extend the model's capabilities to handle neutral sentiments, ensuring a robust multiclass classification system(Proof of Concept).
+
+- Develop a sophisticated NLP model capable of accurately classifying tweet sentiments as positive, negative, or neutral, providing nuanced insights into the public's opinions(Sentiment Analysis). The criterion for building a "sophisticated model" is that the model should have an acceptable accuracy of 80% and above. Also it should be able to differentiate between the 3 target classes.
 
 
 ##### Challenges
@@ -193,11 +195,10 @@ The Random Forest classification model demonstrates strong overall performance w
 
 To address the lower performance in class 'Negative', several next steps can be taken.
 
+- Additional data collection for class 'Negative' may be beneficial to improve the model's ability to generalize for this category. Hyperparameter tuning and feature engineering could be explored to enhance the model's discriminatory power. 
 
-Additional data collection for class 'Negative' may be beneficial to improve the model's ability to generalize for this category. Hyperparameter tuning and feature engineering could be explored to enhance the model's discriminatory power.
+- Considering the imbalanced class distribution, techniques like resampling, adjusting class weights during training may help improve overall model performance or using a technique as SMOTE. 
 
+- Continuous monitoring and validation on new data are essential, and the model should be iteratively refined to ensure its effectiveness in real-world applications.
 
-Considering the imbalanced class distribution, techniques like resampling, adjusting class weights during training may help improve overall model performance or using a technique as SMOTE.
-
-
-Continuous monitoring and validation on new data are essential, and the model should be iteratively refined to ensure its effectiveness in real-world applications.
+- A request to X (fomally known as Twitter) has to be made to access the API. Based on their communication, this process can take upto 5 business days or longer depending on the volume of applications. The API can then be used in conjunction with our model in order to fetch new tweet data and run the model.
