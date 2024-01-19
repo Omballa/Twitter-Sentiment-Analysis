@@ -108,7 +108,7 @@ To reproduce and extend the project, the following dependencies are crucial:
 ## Usage
 
 1. Clone the repository.
-2. Install dependencies using.
+2. Install dependencies.
 3. Run the provided notebooks for data analysis and model training.
 
 ## API Integration (Pending)
