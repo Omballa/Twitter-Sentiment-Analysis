@@ -127,3 +127,4 @@ To reproduce and extend the project, the following dependencies are crucial:
 - [William Omballa](https://github.com/Omballa)
 - [Valerie Jerono](https://github.com/VAL-Jerono)
 - [Ruth Nanjala](https://github.com/RuthNanjala)
+- [Odhiambo Mumbi](https://github.com/Mumbsss)
