@@ -14,6 +14,7 @@ In a dynamic digital landscape dominated by social media, understanding public s
 - Exploratory Data Analysis and Visualization
 - Data Preprocessing
 - Modelling
+
     -Base Model
 
     -Multiclass Model
@@ -107,7 +108,7 @@ To reproduce and extend the project, the following dependencies are crucial:
 ## Usage
 
 1. Clone the repository.
-2. Install dependencies using `requirements.txt`.
+2. Install dependencies.
 3. Run the provided notebooks for data analysis and model training.
 
 ## API Integration (Pending)
@@ -126,3 +127,4 @@ To reproduce and extend the project, the following dependencies are crucial:
 - [William Omballa](https://github.com/Omballa)
 - [Valerie Jerono](https://github.com/VAL-Jerono)
 - [Ruth Nanjala](https://github.com/RuthNanjala)
+- [Odhiambo Mumbi](https://github.com/Mumbsss)
